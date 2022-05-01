@@ -7,7 +7,7 @@
     width: 500px;
     height: 700px;
     padding: 20px;
-    border: 7px solid rgb(160, 179, 255);
+    border: 7px groove rgb(160, 179, 255);
 }
 
 #character {
@@ -19,11 +19,24 @@
 }
 
 #block {
-    width: 20px;
-    height: 20px;
+    width: 70px;
+    height: 10px;
     background-color: honeydew;
-    border: 1px dotted hotpink;
+    border: 7px double hotpink;
     position: relative;
     z-index: 100000;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.block2 {
+    width: 77px;
+    height: 15px;
+    background-color: lavenderblush;
+    border: 4px rgb(255, 207, 245);
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-radius: 3px;
+    padding: 2px;
 }
 
